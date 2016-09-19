@@ -146,7 +146,7 @@ class Polygon(Line, Geom): # Polygon class
 #Step 3: Set the directory for the csv files. This is a variable that the user must change.
 os.chdir(r'C:\Users\Vasilis\Dropbox\5_UCL\1st_Semester\2.GIS Principles and Technology\PointInPolygon\testData')
 
-#Step 4: Read the coordinates of the polygon
+#Step 4: Retrieve the coordinates of the polygon
 with open ('testPoly2.csv') as csvfile: #Open the csv file that contains the coordinates of the polygon.
     dataReader = csv.reader(csvfile) #dataReader is a 'csv.reader' variable used to read what is inside the csv file.
     rList= dataReader.next() #Create a random list to read the coordinates of the first point. rList is a temporary variable
