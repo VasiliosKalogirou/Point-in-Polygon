@@ -144,7 +144,8 @@ class Polygon(Line, Geom): # Polygon class
                 return "outside"
 
 #Step 3: Set the directory for the csv files. This is a variable that the user must change.
-os.chdir(r'C:\Users\Vasilis\Dropbox\5_UCL\1st_Semester\2.GIS Principles and Technology\PointInPolygon\testData')
+#os.chdir(r'C:\Users\Vasilis\Dropbox\5_UCL\1st_Semester\2.GIS Principles and Technology\PointInPolygon\testData')
+os.chdir('C:\\Users\Vasilis\Documents\Projects\PIP\testData')
 
 #Step 4: Retrieve the coordinates of the polygon
 with open ('testPoly2.csv') as csvfile: #Open the csv file that contains the coordinates of the polygon.
